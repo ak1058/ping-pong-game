@@ -16,9 +16,8 @@ The backend of this game is built using Python. It handles the game logic, score
 
 To run the backend, you need the following Python packages:
 
-- `Flask`
-- `Flask-SocketIO`
-- `pygame` (optional, for game logic or sound effects)
+- `You can use my test env to get all dependencies you need to type cmd test\Scripts\activate`
+
 
 These dependencies can be installed by creating a virtual environment and running the following command:
 
