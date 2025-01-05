@@ -24,13 +24,14 @@ These dependencies can be installed by creating a virtual environment and runnin
 
 ```bash
 pip install -r requirements.txt
+```bash
 
 ## Running the backend:
 
 by this cmd
 ```bash
 uvicorn app:app --reload
-
+```bash
 
 ## Frontend part
 go to the frontend/ping-pong directory
