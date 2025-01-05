@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.game-container {
+  text-align: center;
+}
+
+.score {
+  margin: 10px;
+}
+
+.game-area {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: #f0f0f0;
+}
+
+.paddle {
+  position: absolute;
+  width: 20px;
+  height: 100px;
+  background-color: #3498db;
+}
+
+.paddle.left {
+  left: 10px;
+}
+
+.paddle.right {
+  right: 10px;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+}
+
+.obstacle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #2ecc71;
+}
